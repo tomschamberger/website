@@ -13,12 +13,13 @@ import {page} from "$app/stores";
 		Tom Schamberger
 	</h1>
 	<h2>
-		<strong>Real-time analytics</strong>
-		and
-		<strong>event-based systems</strong>
-		in the
-		<strong>cloud</strong>
+		Real-time analytics and
+		event-based systems
+		in the cloud
 	</h2>
+	<p>
+		Currently working for <a href="#todo">msg</a>
+	</p>
 	<nav>
 		<ul>
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
@@ -33,4 +34,25 @@ import {page} from "$app/stores";
 
 <style>
 
+	section {
+		margin-top: 2rem;
+	}
+
+	h1 {
+		font-family: "LeagueSpartan", sans-serif;
+		font-weight: 800;
+		font-size: 4rem;
+		margin-bottom: 0.5rem;
+	}
+
+	h2 {
+		font-family: "OpenSansSemiCondensed", sans-serif;
+		font-weight: 500;
+		font-size: 1.5rem;
+	}
+
+	p {
+		font-family: "OpenSans", sans-serif;
+		font-weight: 500;
+	}
 </style>

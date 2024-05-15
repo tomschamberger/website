@@ -1,0 +1,64 @@
+
+@font-face {
+    font-family: 'LeagueSpartan';
+    font-style: normal;
+    font-weight: 800;
+    src: url('/fonts/LeagueSpartan-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'LeagueSpartan';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/fonts/LeagueSpartan-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSansSemiCondensed';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/fonts/OpenSans_SemiCondensed-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSansSemiCondensed';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/fonts/OpenSans_SemiCondensed-Medium.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'OpenSansCondensed';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/fonts/OpenSans_Condensed-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 200;
+    src: url('/fonts/OpenSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/fonts/OpenSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/OpenSans-Regular.ttf') format('truetype');
+}
