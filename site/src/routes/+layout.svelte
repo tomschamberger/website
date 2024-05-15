@@ -1,15 +1,15 @@
 <script>
 	import './base.css';
 	import './fonts.css';
-	import logo from "$lib/images/svelte-logo.svg";
+	import icon from "$lib/images/Icon.webp";
 </script>
 
 <div class="app">
 	<header>
 		<div>
-		<a href="https://kit.svelte.dev">
-			<img src={logo}
-				 alt="SvelteKit"
+		<a href="https://www.tomschamberger.com/">
+			<img src={icon}
+				 alt="TS Icon"
 			/>
 		</a>
 		</div>

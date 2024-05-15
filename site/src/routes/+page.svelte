@@ -1,6 +1,6 @@
 <script>
-
 import {page} from "$app/stores";
+import speaker from "$lib/images/Speaker.webp";
 </script>
 
 <svelte:head>
@@ -30,6 +30,12 @@ import {page} from "$app/stores";
 			</li>
 		</ul>
 	</nav>
+
+	<img
+		id="speaker-img"
+		src={speaker}
+		alt=""
+	/>
 </section>
 
 <style>
@@ -54,5 +60,10 @@ import {page} from "$app/stores";
 	p {
 		font-family: "OpenSans", sans-serif;
 		font-weight: 500;
+	}
+
+	#speaker-img {
+		width: 75vw;
+		max-width: 48rem;
 	}
 </style>
